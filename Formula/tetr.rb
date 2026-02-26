@@ -2,11 +2,11 @@ class Tetr < Formula
   desc "Terminal real-time translation assistant"
   homepage "https://github.com/MaydayV/Terminal-Translation"
   license "MIT"
-  version "0.1.5"
+  version "0.1.6"
   depends_on arch: :arm64
 
   url "https://github.com/MaydayV/Terminal-Translation/releases/download/v#{version}/tetr-v#{version}-macos-arm64.tar.gz"
-  sha256 "43f2f8dc0602723ea4be26312c8dd6e262fdfa0c5f864833020b9ab7d96abf7b"
+  sha256 "673129063c8367df22e7c1672e9e549d6e31adb8454088af18ef5b270493d8b3"
 
   def install
     bin.install "tetr"
